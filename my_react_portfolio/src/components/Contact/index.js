@@ -17,7 +17,7 @@ export default function () {
 
     const handleSubmit = event => {
         event.preventDefault();
-        window.location.href= "mailto:neka27@gmail.com?name="+state.name+"subject="+state.email+"&body="+state.message
+        window.location.href= "mailto:neka27@gmail.com?name="+state.name+"&email="+state.email+"&body="+state.message
     }
     return (
 
