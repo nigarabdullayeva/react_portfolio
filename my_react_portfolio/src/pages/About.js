@@ -6,6 +6,7 @@ export default function() {
     return (
         <div>
         <Mybio/>
+        <Links/>
         </div>
     )
 }

@@ -21,7 +21,9 @@ export default function () {
     }
     return (
 
-        
+        <section className="jumbotron">
+        <h1 className="display-3">Contact</h1>
+        <hr className="my-4"></hr>
         <form className="container mt-5 shadow align-items-center col-sm-7">
             <div className="row">
                 <div className="col-md-8">
@@ -37,5 +39,6 @@ export default function () {
                 Send
             </button>
         </form>
+        </section>
     )
 }

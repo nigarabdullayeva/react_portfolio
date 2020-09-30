@@ -4,7 +4,9 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Links from "./components/Links"
+import Portfolio from "./pages/Portfolio";
+
+
 
 
 
@@ -14,7 +16,7 @@ function App() {
     <Nav/>
     <Route exact path="/" component={About}/>
     <Route exact path= "/contact" component ={Contact}/>
-    <Links/>
+    <Route exact path= "/portfolio" component ={Portfolio}/>
     <Footer/>
   </Router>
   );
