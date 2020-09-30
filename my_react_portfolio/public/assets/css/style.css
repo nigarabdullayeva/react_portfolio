@@ -1,11 +1,11 @@
-body {
+#root {
     background-color:#cccccc;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-bottom: 60px;
 }
 .jumbotron {
     margin: 10px;
-    background-color: #b9b0b0;
+    background-color:green;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
  
